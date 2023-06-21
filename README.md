@@ -65,7 +65,6 @@ This project aims to build a predictive model that could predict the number of r
      - Linear Regression
      - Lasso (L1) Regression
      - Ridge (L2) Regression 
-     - ElasticNet Regression 
      - Decision Tree 
      - Random Forest
      - XGBoost 
