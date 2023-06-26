@@ -2,7 +2,7 @@
 This project aims to build a predictive model that could predict the number of rental bikes required for each hour using the Seoul Bike Sharing dataset. Linear regression, Lasso (L1), Ridge (L2), Decision Tree, Random Forest, and XGBoost algorithms are used to build a model to predict the number of rental bikes required for each hour.
 
 #### <ins>Alternative URL</ins>
-     https://nbviewer.org/github/hamant-jagwan/Bike_Sharing_Demand_Prediction--ML--regression/blob/main/Bike_Sharing_Demand_Prediction.ipynb
+(https://nbviewer.org/github/hamant-jagwan/Bike_Sharing_Demand_Prediction--ML--regression/blob/main/Bike_Sharing_Demand_Prediction.ipynb
 
 #### <ins>Problem Statement</ins>
      Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is 
