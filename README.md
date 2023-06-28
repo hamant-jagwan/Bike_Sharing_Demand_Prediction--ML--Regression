@@ -1,15 +1,16 @@
-# Bike-Sharing-Demand-Prediction-ML-Regression
-This project aims to build a predictive model that could predict the number of rental bikes required for each hour using the Seoul Bike Sharing dataset. Linear regression, Lasso (L1), Ridge (L2), Decision Tree, Random Forest, and XGBoost algorithms are used to build a model to predict the number of rental bikes required for each hour.
+<p align="center"> 
+<img src="https://i.pinimg.com/originals/25/05/16/25051662be929d78194985190aeee50a.gif"  width="600" height="400" alt="GIF">
+</p>
 
-#### <ins>Alternative URL</ins>
+## <ins>Alternative URL</ins>
 (https://nbviewer.org/github/hamant-jagwan/Bike_Sharing_Demand_Prediction--ML--regression/blob/main/Bike_Sharing_Demand_Prediction.ipynb
 
-#### <ins>Problem Statement</ins>
+## <ins>Introduction</ins>
      Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is 
      important to make the rental bike available and accessible to the public at the right time as it lessens the
      waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern.
      The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
-#### <ins>Dataset</ins>
+## <ins>Dataset</ins>
      The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, 
      Snowfall, Rainfall, the number of bikes rented per hour and date information.
      
@@ -28,7 +29,7 @@ This project aims to build a predictive model that could predict the number of r
      Seasons - Winter, Spring, Summer, Autumn
      Holiday - Holiday/No holiday
      Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
-#### <ins>Data Cleaning and Data Preprocessing</ins>
+## <ins>Data Cleaning and Data Preprocessing</ins>
      [1] Handling Duplicate Values
      - Dataset having 0 duplicated values.
      [2] Handling Null / Missing Values
@@ -46,7 +47,7 @@ This project aims to build a predictive model that could predict the number of r
      - Label encoding used to encoding variables Seasons, Holiday, and Functional Day.
      [6] Data Scaling
      - MinMaxScaler preserves the shape of the original distribution. It doesn't meaningfully change the information embedded in the original data. So we used MinMaxScaler for scaling the dataset.
-#### <ins>Exploratory Data Analysis</ins>
+## <ins>Exploratory Data Analysis</ins>
      These following graphs and plots were primarily created using Matplotlib and the Seaborn package.
      - Bar plot
      - Line plot
@@ -63,7 +64,7 @@ This project aims to build a predictive model that could predict the number of r
      - When there is no snowfall, most people opt to rent bikes. However, the majority of customers prefer to rent bikes when it snows up to 4 cm.
      - In the first 10 days of the month, most rented bikes are used by customers. Customers consistently use rented bikes in the last 15 days of the month.
      - In June, most rented bikes are used through the year, followed by October. Customers' use of rent bikes is at its peak from April to September.
-#### <ins>Model Building</ins>
+## <ins>Model Building</ins>
      We implemented the following machine learning models:
      - Linear Regression
      - Lasso (L1) Regression
@@ -71,12 +72,12 @@ This project aims to build a predictive model that could predict the number of r
      - Decision Tree 
      - Random Forest
      - XGBoost 
-#### <ins>Models Evaluation</ins>
+## <ins>Models Evaluation</ins>
      - We used the R-squared score, Root Mean Squared Error, and the Mean of Residuals for the evaluation of each model.
-#### <ins>Model Explainability</ins>
+## <ins>Model Explainability</ins>
      - A higher feature importance score for features : Functioning Days, Rainfall (mm), and Seasons, respectively, indicates that those specific features have a larger influence on the model used to forecast a certain variable, respectively.
      - High values from the Hour, Temperature (°C), Solar Radiation (MJ/m2), and Functioning Day features have a positive impact on the model, while low values have a negative impact.
      - High values of the variables for Wind speed (m/s), Holidays, Snowfall (cm), Visibility (10m), Seasons, and Rainfall (mm) have a negative impact on the model, while low values have a positive impact.
-#### <ins>Conclusion</ins>
+## <ins>Conclusion</ins>
      - The XGBoost regression model has the highest R-squared score, the lowest Root Mean Squared Error (RMSE), and has very close to having zero mean of residuals. Achieved high R-squared score of 0.90% using XGBoost.
      - As a result of the model's high accuracy, low error, and zero mean of residuals, the XGBoost regression model is the ideal and well-trained model for forecasting the number of rented bikes required per hour.
