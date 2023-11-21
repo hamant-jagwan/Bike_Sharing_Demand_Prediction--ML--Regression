@@ -3,7 +3,7 @@
 </p>
 
 ## <ins>Alternative URL</ins>
-(https://nbviewer.org/github/hamant-jagwan/Bike_Sharing_Demand_Prediction--ML--regression/blob/main/Bike_Sharing_Demand_Prediction.ipynb
+https://nbviewer.org/github/hamant-jagwan/Bike_Sharing_Demand_Prediction--ML--Regression/blob/main/Bike_Sharing_Demand_Prediction.ipynb
 
 ## <ins>Introduction</ins>
      Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is 
